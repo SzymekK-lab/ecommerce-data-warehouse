@@ -1,3 +1,59 @@
-.idea/
-.venv/
+# Python
 __pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environment
+.venv/
+venv/
+env/
+
+# IDE
+.idea/
+.vscode/
+
+# macOS s
+.DS_Store
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Logs
+*.log
+
+# Environment Variables
+.env
+
+# Build files
+build/
+dist/
+*.egg-info/
+
+# Database
+*.db
+*.sqlite3
+
+# PostgreSQL dumps
+*.sql.gz
+*.dump
+
+# Generated data files
+data/*.csv
+
+# Docker
+docker-data/
+postgres_data/
+
+# Pytest
+.pytest_cache/
+
+# Coverage
+.coverage
+htmlcov/
+
+# Temporary files
+*.tmp
+*.swp
+
+# System files
+Thumbs.db
